@@ -1,0 +1,15 @@
+evans
+Evans Study,
+Variable,Description
+ID,"Subject ID, one observation per subject "
+CHD,Coronary heart disease (1) or not (0)
+CAT,High catecholamine level (1) or not (0)
+AGE,Age in years 
+CHL,Cholesterol level
+SMK,Ever smoked (1) or never smoked (0)
+ECG,ECG abnormality (1) or not (0)
+DPB,Diastolic blood pressure
+SBP,Systolic blood pressure
+HPT,"1 if DBP ≥ 90 or SBP ≥ 160, otherwise = 0"
+CH,CAT*HPT
+CC,CAT*CHL
